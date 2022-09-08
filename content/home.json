@@ -34,8 +34,16 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/1447-10-off-10-off.png"
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/1447-10-off-10-off.png"
+        }
+      ]
     },
     {
       "type": "banners-grid",
