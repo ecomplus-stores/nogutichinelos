@@ -139,6 +139,29 @@
     {
       "type": "custom-content",
       "markdown": "<!--StartFragment-->\n\n#### **As últimas lá do insta @nogutichinelos...**\n\n<!--EndFragment-->"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/1447-10.png"
+        },
+        {
+          "img": "/img/uploads/1447-9.png"
+        },
+        {
+          "img": "/img/uploads/1447-8.png"
+        },
+        {
+          "img": "/img/uploads/1447-7.png"
+        },
+        {
+          "img": "/img/uploads/1447-6.png"
+        },
+        {
+          "img": "/img/uploads/1447-5.png"
+        }
+      ]
     }
   ]
 }
