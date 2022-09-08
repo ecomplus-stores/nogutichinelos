@@ -65,6 +65,10 @@
       "type": "page-title",
       "title": "Loja demo da E-Com Plus",
       "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+    },
+    {
+      "type": "custom-content",
+      "markdown": "<!--StartFragment-->\n\n#### **Você sabe quais são os benefícios dos chinelos de palha?**\n\n<!--EndFragment-->"
     }
   ]
 }
