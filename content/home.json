@@ -113,6 +113,20 @@
     {
       "type": "custom-content",
       "markdown": "<!--StartFragment-->\n\n### **Depoimentos de clientes:**\n\n<!--EndFragment-->"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-2-.png"
+        },
+        {
+          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-3-.png"
+        },
+        {
+          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-4-.png"
+        }
+      ]
     }
   ]
 }
