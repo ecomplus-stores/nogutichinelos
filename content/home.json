@@ -69,26 +69,10 @@
       "markdown": "<!--StartFragment-->\n\n#### **Você sabe quais são os benefícios dos chinelos de palha?**\n\n<!--EndFragment-->"
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
+      "type": "banners-grid",
+      "banners": [
         {
-          "start": "",
-          "end": "",
           "img": "/img/uploads/1447-nogutichinelos-18-.png",
-          "link": "/todososprodutos"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/1447-nogutichinelos-20-.png",
-          "link": "/todososprodutos"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/1447-nogutichinelos-19-.png",
           "link": "/todososprodutos"
         }
       ]
