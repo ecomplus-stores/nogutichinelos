@@ -93,6 +93,12 @@
       "sort": "offers",
       "link": "/ofertas",
       "title": "Ofertas"
+    },
+    {
+      "type": "responsive-banner",
+      "mobile_img": "",
+      "link": "/animal-print",
+      "img": "/img/uploads/1447-banners-14-2-.png"
     }
   ]
 }
