@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": "#page-home .banners-grid .col-12 {\n  flex: 0 0 33.33333%;\n  max-width: 33.33333%;\n}",
   "html_head": "",
   "html_body": ""
 }
