@@ -34,6 +34,10 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/1447-10-off-10-off.png"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -49,10 +53,6 @@
           "link": "/slides"
         }
       ]
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/1447-10-off-10-off.png"
     },
     {
       "type": "collection-shelf",
