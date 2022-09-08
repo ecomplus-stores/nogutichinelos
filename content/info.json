@@ -1,18 +1,18 @@
 {
   "shipping": {
     "show": true,
-    "text": "Entregamos para todo o Brasil"
+    "text": "ENTREGAMOS PARA TODO O BRASIL. FRETE REDUZIDO NAS COMPRAS ACIMA DE R$100,00"
   },
   "installments": {
     "show": true,
-    "text": "Parcele sem juros"
+    "text": " PARCELE EM ATÉ 12 X (6X SEM JUROS)"
   },
   "exchange": {
     "show": true,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "text": "NA COMPRA DE 6 PARES, GANHE 10% DE DESCONTO!!"
   },
   "promo": {
     "show": true,
-    "text": "Diferentes promoções ao longo do ano!"
+    "text": "FRETE GRÁTIS NAS COMPRAS ACIMA DE 120,00. PARA AS REGIÕES SUL E SUDESTE."
   }
 }
