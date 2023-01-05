@@ -146,22 +146,27 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/1447-10.png"
+          "img": "/img/uploads/16.jpg",
+          "link": "https://www.instagram.com/p/Cm7aAsROlGb/?utm_source=ig_web_copy_link"
         },
         {
-          "img": "/img/uploads/1447-9.png"
+          "img": "/img/uploads/15.jpg",
+          "link": "https://www.instagram.com/p/Cm17NkuOn0Q/?utm_source=ig_web_copy_link"
         },
         {
-          "img": "/img/uploads/1447-8.png"
+          "img": "/img/uploads/14.jpg",
+          "link": "https://www.instagram.com/reel/CmumKkOqATS/?utm_source=ig_web_copy_link"
         },
         {
-          "img": "/img/uploads/1447-7.png"
+          "img": "/img/uploads/13.jpg",
+          "link": "https://www.instagram.com/p/CmjoG5KOyl7/?utm_source=ig_web_copy_link"
         },
         {
-          "img": "/img/uploads/1447-6.png"
+          "img": "/img/uploads/12.jpg",
+          "link": "https://www.instagram.com/p/CmfI2xDOHX5/?utm_source=ig_web_copy_link"
         },
         {
-          "img": "/img/uploads/post-insta-.jpg",
+          "img": "/img/uploads/11.jpg",
           "link": "https://www.instagram.com/reel/Cmchd5qKqwy/?utm_source=ig_web_copy_link"
         }
       ]
