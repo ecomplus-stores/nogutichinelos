@@ -4,23 +4,23 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 9000,
+      "autoplay": 1000,
       "full_width": true,
       "slides": [
         {
           "start": "",
-          "end": "",
-          "img": "/img/uploads/1447-kkk.png"
+          "end": "2023-12-31T16:59:03.489Z",
+          "img": "/img/uploads/25.jpg"
         },
         {
           "start": "",
-          "end": "",
-          "img": "/img/uploads/1447-frete-gratis.png"
+          "end": "2023-12-31T16:59:39.038Z",
+          "img": "/img/uploads/26.jpg"
         },
         {
           "start": "",
-          "end": "",
-          "img": "/img/uploads/1447-frete-gratis-1-.png"
+          "end": "2023-12-31T17:00:04.403Z",
+          "img": "/img/uploads/27.jpg"
         },
         {
           "start": "",
