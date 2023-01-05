@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": "@media(min-width: 767px) {\n  .banners-grid:last-child .container .row{\n    flex: 0 0 16.33%;\n  }\n}",
   "html_head": "",
   "html_body": ""
 }
