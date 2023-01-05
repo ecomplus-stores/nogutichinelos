@@ -36,23 +36,6 @@
       "enabled": true
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/6.png",
-          "link": "https://nogutichinelos.com.br/slides"
-        },
-        {
-          "img": "/img/uploads/2.png",
-          "link": "https://nogutichinelos.com.br/chinelos"
-        },
-        {
-          "img": "/img/uploads/4.png",
-          "link": "https://nogutichinelos.com.br/pantufas"
-        }
-      ]
-    },
-    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
@@ -73,6 +56,23 @@
       "headless": false,
       "limit": 12,
       "page": 1
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/6.png",
+          "link": "https://nogutichinelos.com.br/slides"
+        },
+        {
+          "img": "/img/uploads/2.png",
+          "link": "https://nogutichinelos.com.br/chinelos"
+        },
+        {
+          "img": "/img/uploads/4.png",
+          "link": "https://nogutichinelos.com.br/pantufas"
+        }
+      ]
     },
     {
       "type": "custom-content",
