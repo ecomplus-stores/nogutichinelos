@@ -140,6 +140,29 @@
     },
     {
       "type": "custom-content",
+      "markdown": "#### **Gostou dos nossos produtos? Leve a gente para a sua festa de casamento, aniversário, formatura... Assim seu evento será inesquecível!**"
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "2023-12-31T03:00:00.000Z",
+          "img": "/img/uploads/29.png",
+          "link": "https://noguti.com.br/"
+        },
+        {
+          "start": "",
+          "end": "2023-12-31T21:03:01.550Z",
+          "img": "/img/uploads/30.png",
+          "link": "https://noguti.com.br/"
+        }
+      ]
+    },
+    {
+      "type": "custom-content",
       "markdown": "<!--StartFragment-->\n\n#### **As últimas lá do insta @nogutichinelos...**\n\n<!--EndFragment-->"
     },
     {
@@ -168,29 +191,6 @@
         {
           "img": "/img/uploads/11.jpg",
           "link": "https://www.instagram.com/reel/Cmchd5qKqwy/?utm_source=ig_web_copy_link"
-        }
-      ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "#### **Gostou dos nossos produtos? Leve a gente para a sua festa de casamento, aniversário, formatura... Assim seu evento será inesquecível!**"
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": true,
-      "slides": [
-        {
-          "start": "",
-          "end": "2023-12-31T03:00:00.000Z",
-          "img": "/img/uploads/29.png",
-          "link": "https://noguti.com.br/"
-        },
-        {
-          "start": "",
-          "end": "2023-12-31T21:03:01.550Z",
-          "img": "/img/uploads/30.png",
-          "link": "https://noguti.com.br/"
         }
       ]
     }
