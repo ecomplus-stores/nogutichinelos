@@ -174,6 +174,25 @@
     {
       "type": "custom-content",
       "markdown": "#### **Gostou dos nossos produtos? Leve a gente para a sua festa de casamento, aniversário, formatura... Assim seu evento será inesquecível!**"
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "2023-12-31T03:00:00.000Z",
+          "img": "/img/uploads/29.png",
+          "link": "https://noguti.com.br/"
+        },
+        {
+          "start": "",
+          "end": "2023-12-31T21:03:01.550Z",
+          "img": "/img/uploads/30.png",
+          "link": "https://noguti.com.br/"
+        }
+      ]
     }
   ]
 }
