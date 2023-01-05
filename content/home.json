@@ -122,24 +122,6 @@
     },
     {
       "type": "custom-content",
-      "markdown": "<!--StartFragment-->\n\n### **Depoimentos de clientes:**\n\n<!--EndFragment-->"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-2-.png"
-        },
-        {
-          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-3-.png"
-        },
-        {
-          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-4-.png"
-        }
-      ]
-    },
-    {
-      "type": "custom-content",
       "markdown": "#### **Gostou dos nossos produtos? Leve a gente para a sua festa de casamento, aniversário, formatura... Assim seu evento será inesquecível!**"
     },
     {
@@ -158,6 +140,24 @@
           "end": "2023-12-31T21:03:01.550Z",
           "img": "/img/uploads/30.png",
           "link": "https://noguti.com.br/"
+        }
+      ]
+    },
+    {
+      "type": "custom-content",
+      "markdown": "<!--StartFragment-->\n\n### **Depoimentos de clientes:**\n\n<!--EndFragment-->"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-2-.png"
+        },
+        {
+          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-3-.png"
+        },
+        {
+          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-4-.png"
         }
       ]
     },
