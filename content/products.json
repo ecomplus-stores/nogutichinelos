@@ -13,6 +13,10 @@
       }
     },
     {
+      "type": "custom-content",
+      "markdown": "![](/img/uploads/tabela-de-medidas.jpg)"
+    },
+    {
       "type": "related-products",
       "title": "Produtos relacionados"
     },
