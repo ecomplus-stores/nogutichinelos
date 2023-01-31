@@ -4,9 +4,123 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 9000,
+      "autoplay": 11000,
       "full_width": true,
       "slides": [
+        {
+          "start": "2023-02-01T03:00:12.306Z",
+          "end": "2023-02-28T03:00:17.485Z",
+          "img": "/img/uploads/37.png",
+          "link": "https://nogutichinelos.com.br/neon"
+        },
+        {
+          "start": "2023-02-01T03:00:00.000Z",
+          "end": "2023-02-28T03:00:00.000Z",
+          "img": "/img/uploads/38.png",
+          "link": "https://nogutichinelos.com.br/neon"
+        },
+        {
+          "start": "2023-02-01T03:00:00.000Z",
+          "end": "2023-02-28T03:00:00.000Z",
+          "img": "/img/uploads/39.png",
+          "link": "https://nogutichinelos.com.br/neon"
+        },
+        {
+          "start": "2023-02-13T03:00:35.754Z",
+          "end": "2023-03-13T03:00:00.000Z",
+          "img": "/img/uploads/40.png",
+          "link": "https://nogutichinelos.com.br/slides"
+        },
+        {
+          "start": "2023-02-13T03:00:00.000Z",
+          "end": "2023-03-13T03:00:00.000Z",
+          "img": "/img/uploads/41.png",
+          "link": "https://nogutichinelos.com.br/slides"
+        },
+        {
+          "start": "2023-04-10T03:00:00.000Z",
+          "end": "2023-06-01T03:00:00.000Z",
+          "img": "/img/uploads/42.png",
+          "link": "https://nogutichinelos.com.br/slides"
+        },
+        {
+          "start": "2023-04-10T03:00:00.000Z",
+          "end": "2023-05-15T03:00:00.000Z",
+          "img": "/img/uploads/43.png",
+          "link": "https://nogutichinelos.com.br/slides"
+        },
+        {
+          "start": "2023-04-10T03:00:00.000Z",
+          "end": "2023-05-15T03:00:00.000Z",
+          "link": "https://nogutichinelos.com.br/slides",
+          "img": "/img/uploads/44.png"
+        },
+        {
+          "start": "2023-06-01T03:00:00.000Z",
+          "end": "2023-06-13T03:00:00.000Z",
+          "img": "/img/uploads/45.png",
+          "link": "https://nogutichinelos.com.br/todososprodutos"
+        },
+        {
+          "start": "2023-06-01T03:00:00.000Z",
+          "end": "2023-06-13T03:00:00.000Z",
+          "img": "/img/uploads/46.png",
+          "link": "https://nogutichinelos.com.br/todososprodutos"
+        },
+        {
+          "start": "2023-06-01T03:00:00.000Z",
+          "end": "2023-06-13T03:00:00.000Z",
+          "link": "https://nogutichinelos.com.br/todososprodutos",
+          "img": "/img/uploads/47.png"
+        },
+        {
+          "start": "2023-07-10T20:58:00.148Z",
+          "end": "2023-08-14T03:00:00.000Z",
+          "img": "/img/uploads/48.png",
+          "link": "https://nogutichinelos.com.br/chinelos"
+        },
+        {
+          "start": "2023-07-10T03:00:00.000Z",
+          "end": "2023-08-14T03:00:00.000Z",
+          "link": "https://nogutichinelos.com.br/chinelos",
+          "img": "/img/uploads/49.png"
+        },
+        {
+          "start": "2023-09-11T03:00:00.000Z",
+          "end": "2023-10-13T03:00:00.000Z",
+          "link": "https://nogutichinelos.com.br/pantufas",
+          "img": "/img/uploads/50.png"
+        },
+        {
+          "start": "2023-09-11T03:00:00.000Z",
+          "end": "2023-10-13T03:00:00.000Z",
+          "img": "/img/uploads/51.png",
+          "link": "https://nogutichinelos.com.br/pantufas"
+        },
+        {
+          "start": "2023-09-11T03:00:00.000Z",
+          "end": "2023-10-13T03:00:00.000Z",
+          "link": "https://nogutichinelos.com.br/pantufas",
+          "img": "/img/uploads/52.png"
+        },
+        {
+          "start": "2023-11-13T03:00:00.000Z",
+          "end": "2023-12-27T03:00:00.000Z",
+          "img": "/img/uploads/53.png",
+          "link": "https://nogutichinelos.com.br/slides"
+        },
+        {
+          "start": "2023-11-13T03:00:00.000Z",
+          "end": "2023-12-27T03:00:00.000Z",
+          "img": "/img/uploads/54.png",
+          "link": "https://nogutichinelos.com.br/slides"
+        },
+        {
+          "start": "2023-11-13T03:00:00.000Z",
+          "end": "2023-12-27T03:00:00.000Z",
+          "link": "https://nogutichinelos.com.br/slides",
+          "img": "/img/uploads/55.png"
+        },
         {
           "start": "",
           "end": "2023-12-31T16:59:03.489Z",
