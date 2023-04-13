@@ -1,4 +1,4 @@
-<%- import * from '../config'; %>
+<%- await require('../config') %>
 <script>
 function openPopup(url,w,h){window.open(url+"<%= canonical %>","","width="+w+",height="+h+",top=10,left=10,scrollbars=NO,menubar=NO,titlebar= NO,status=NO,toolbar=NO").focus()}
 </script>
