@@ -1,5 +1,5 @@
 
-<%- include('config') %>
+<%- include('config'); %>
 <!doctype html>
 <html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
 
@@ -11,17 +11,17 @@
     global.keywords = 'Mapa do Site';
   %>
 
-  <%- await include('../@/head') %>
+  <%- await include('../@/head'); %>
 
-  <%- await include('assets/css/css-seo') %>
+  <%- await include('assets/css/css-seo'); %>
 
 </head>
 
 <body>
-  <%- await include('../@/layout/menu') %>
+  <%- await include('../@/layout/menu'); %>
 
   <main role="main" id="main">
-    <%- await include('../@/layout/header') %>
+    <%- await include('../@/layout/header'); %>
 
     <main class="content_text_4up" id="container_4up">
       <div class="container py-5">
@@ -33,17 +33,17 @@
         <div class="row">
           <div class="col-md-12">
             <ul class="listing">
-              <%- await include('includes/menu-mapa') %>
+              <%- await include('includes/menu-mapa'); %>
             </ul>
           </div>
         </div>
       </div>
-    <%- await include('includes/shared') %>
-    <%- await include('../@/layout/footer') %>
+    <%- await include('includes/shared'); %>
+    <%- await include('../@/layout/footer'); %>
   </main>
 
   <%- await include('../@/json') %>
-  <%- await include('../@/scripts') %>
+  <%- await include('../@/scripts'); %>
 </body>
 
 </html>
