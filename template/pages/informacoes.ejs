@@ -1,0 +1,45 @@
+<%- await include('@/seo_config') %>
+<%- await include('@/seo_geral') %>
+<!doctype html>
+<html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
+
+<head>
+  <%
+    let title = "Mapa do Site";
+    let desc = 'Mapa do Site';
+    let keywords = 'Mapa do Site';
+  %>
+
+  <%- await include('@/head') %>
+</head>
+
+<body id="page-404">
+  <%- await include('@/layout/menu') %>
+
+  <main role="main" id="main">
+    <%- await include('@/layout/header') %>
+
+    <main class="content_text_4up" id="container_4up">
+      <div class="container mapaSite">
+    
+        <header class="div_title_4up">
+          <h1 class="title_h1_4up"><%= title %></h1>
+        </header>
+    
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="listing">
+              <%- await include('@/seo_menu-mapa') %>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <%- await include('@/layout/footer') %>
+  </main>
+
+  <%- await include('@/json') %>
+  <%- await include('@/scripts') %>
+</body>
+
+</html>
