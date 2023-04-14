@@ -1,8 +1,9 @@
 <%- await include('../config'); %>
+
 <script>
 function openPopup(url,w,h){window.open(url+"<%= global.canonical %>","","width="+w+",height="+h+",top=10,left=10,scrollbars=NO,menubar=NO,titlebar= NO,status=NO,toolbar=NO").focus()}
 </script>
-<div class="share-rectangle">
+<div class="share-rectangle mb-5">
 	<span style="margin:0 0 10px;display:block;">Compartilhe em suas redes sociais</span>
 
 	<button class="facebook" onclick="openPopup('https://www.facebook.com/sharer/sharer.php?u=',640,430); return false;" rel="nofollow">
