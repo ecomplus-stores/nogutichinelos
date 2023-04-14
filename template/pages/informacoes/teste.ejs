@@ -8,11 +8,24 @@
     global.title = "Mapa do Site";
     global.desc = 'Mapa do Site';
     global.keywords = 'Mapa do Site';
+    let texto_title
   %>
 
   <%- await include('../@/head'); %>
 
   <%- await include('assets/css/css-seo'); %>
+
+  <% var request = require('request');
+  let url_txt =  global.url_content_server_production + 'assessoria-para-importar-produtos-da-china.php'
+  request(url_txt, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+       var importedJSON = JSON.parse(body);
+       console.log(importedJSON);
+
+       global.title = importedJSON.title;
+       global.texto_title = importedJSON.text_title
+    }
+  }) %>
 
 </head>
 
@@ -31,9 +44,7 @@
     
         <div class="row">
           <div class="col-md-12">
-            <ul class="listing">
-              <%- await include('includes/menu-mapa'); %>
-            </ul>
+            <%= global.texto_title %>
           </div>
         </div>
       </div>
