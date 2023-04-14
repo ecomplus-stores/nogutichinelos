@@ -16,7 +16,7 @@
 
 
 <script>
-  var url_txt = global.url_content_server_production + 'assessoria-para-importar-produtos-da-china.php'
+  var url_txt = '<%=global.url_content_server_production%>assessoria-para-importar-produtos-da-china.php'
   fetch(url_txt)
     .then(response => response.json())
     .then(data => {
