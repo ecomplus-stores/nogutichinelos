@@ -8,24 +8,22 @@
     global.title = "Mapa do Site";
     global.desc = 'Mapa do Site';
     global.keywords = 'Mapa do Site';
-    let texto_title
   %>
 
   <%- await include('../@/head'); %>
 
   <%- await include('assets/css/css-seo'); %>
 
-  <% var request = require('request');
-  let url_txt =  global.url_content_server_production + 'assessoria-para-importar-produtos-da-china.php'
-  request(url_txt, function (error, response, body) {
-    if (!error && response.statusCode == 200) {
-       var importedJSON = JSON.parse(body);
-       console.log(importedJSON);
 
-       global.title = importedJSON.title;
-       global.texto_title = importedJSON.text_title
-    }
-  }) %>
+<script>
+  var url_txt = global.url_content_server_production + 'assessoria-para-importar-produtos-da-china.php'
+  fetch(url_txt)
+    .then(response => response.json())
+    .then(data => {
+      const jsonData = data;
+      // Use jsonData em seu modelo EJS
+    });
+</script>
 
 </head>
 
@@ -42,11 +40,12 @@
           <h1 class="title_h1_4up"><%= global.title %></h1>
         </header>
     
-        <div class="row">
-          <div class="col-md-12">
-            <%= global.texto_title %>
-          </div>
-        </div>
+        <ul>
+          <% for (let i = 0; i < jsonData.length; i++) { %>
+            <li><%= jsonData[i].name %></li>
+          <% } %>
+        </ul>
+        
       </div>
       <%- await include('includes/shared'); %>
     </div>
