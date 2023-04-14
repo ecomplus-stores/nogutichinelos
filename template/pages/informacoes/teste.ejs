@@ -17,12 +17,12 @@
 
 
 <script>
-  var url_txt = 'https://homolog4up.com.br/textos/teste/comprar-acessorios-para-colheitadeiras.php'
+  var url_txt = '<%=global.url_content_server_production %>comprar-acessorios-para-colheitadeiras.php';
   fetch(url_txt)
     .then(response => response.json())
     .then(data => {
       const jsonData = data;
-      alert(jsonData);
+      // alert(jsonData);
       console.log(jsonData);
     });
 </script>
