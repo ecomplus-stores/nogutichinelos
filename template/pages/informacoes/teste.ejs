@@ -12,13 +12,12 @@
 
   <%- await include('../@/head'); %>
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-
   <%- await include('assets/css/css-seo'); %>
 
 
 <script>
   var url_txt = '<%=global.url_content_server_production %>comprar-acessorios-para-colheitadeiras.php';
-  fetch(url_txt)
+  fetch(url_txt, {mode: 'no-cors'})
     .then(response => response.json())
     .then(data => {
       const jsonData = data;
