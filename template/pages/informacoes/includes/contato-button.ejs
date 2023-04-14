@@ -1,65 +1,48 @@
 <%- await include('../config'); %>
 
 <div class="botoes-contato-desktop d-flex">
-<%if (global.linkgmap.lenght > 0) { %>
 <a title="Localização" href="<%= global.linkgmap %>" id="btn-fl-localizacao" class="icon_localizacao tm-localizacao" target="_blank">
     <i class="fas fa-location-dot"></i>
 </a>
-<%} %>
-<% if (global.href_tel1.lenght > 0) { %>
 <a title="Telefone" href="<%= global.href_tel1 %>" id="btn-fl-phone" class="icon_phone tm-phone" target="_blank">
     <svg aria-hidden="true" class="ico_d " width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(0deg);">
     <path d="M19.3929 14.9176C17.752 14.7684 16.2602 14.3209 14.7684 13.7242C14.0226 13.4259 13.1275 13.7242 12.8292 14.4701L11.7849 16.2602C8.65222 14.6193 6.11623 11.9341 4.47529 8.95057L6.41458 7.90634C7.16046 7.60799 7.45881 6.71293 7.16046 5.96705C6.56375 4.47529 6.11623 2.83435 5.96705 1.34259C5.96705 0.596704 5.22117 0 4.47529 0H0.745882C0.298353 0 5.69062e-07 0.298352 5.69062e-07 0.745881C5.69062e-07 3.72941 0.596704 6.71293 1.93929 9.3981C3.87858 13.575 7.30964 16.8569 11.3374 18.7962C14.0226 20.1388 17.0061 20.7355 19.9896 20.7355C20.4371 20.7355 20.7355 20.4371 20.7355 19.9896V16.4094C20.7355 15.5143 20.1388 14.9176 19.3929 14.9176Z" transform="translate(9.07179 9.07178)" fill="white"></path>
     </svg>
 </a>
-<%} %>
-<% if (global.whatsapp.lenght > 0) { %>
 <a title="Whatsapp" href="<%= global.whatsapp %>" id="btn-fl-whats" class="icon_whats tm-whats" target="_blank">
     <i class="fab fa-whatsapp"></i>
 </a>
-<% } %>
-<% if (global.href_email1.lenght > 0) { %>
 <a title="Email" href="<%= global.href_email1 %>" id="btn-fl-mail" class="icon_mail tm-mail" target="_blank">
     <i class="fa-regular fa-envelope"></i>
 </a>
-<% } %>
 </div>
 
 <div class="bottomBar">
     <ul>
-      <% if (global.whatsapp.lenght > 0) { %>
         <li class="icon_whats">
           <a id="btn-whatsmob tm-whats" title="Whatsapp" href="<%= global.whatsapp %>" target="_blank">
             <i class="fab fa-whatsapp"></i>
           </a>
         </li>
-      <% } %>
-      <% if (global.href_tel1.lenght > 0) { %>
         <li class="icon_phone">
           <a id="btn-telmob tm-phone" title="Telefone" href="<%= global.href_tel1 %>">
             <i class="fas fa-phone"></i>
           </a>
         </li>
-      <% } %>
-      <% if (global.linkwaze.lenght > 0) { %>
         <li class="icon_localizacao_waze">
           <a id="btn-wazemob tm-localizacao" title="Localização" href="<%= global.linkwaze %>" target="_blank">
             <i class="fab fa-waze"></i>
           </a>
         </li>
-      <% } else if (global.linkgmap.lenght > 0) { %>
         <li class="icon_localizacao">
           <a id="btn-googlemob tm-localizacao" title="Localização" href="<%= global.linkgmap %>" target="_blank">
             <i class="fas fa-location-dot"></i>
           </a>
         </li>
-      <% } %>
-      <% if (global.href_email1.lenght > 0) { %>
         <li class="icon_mail">
           <a id="btn-emailmob tm-mail" title="E-mail" href="<%= global.href_email1 %>" target="_blank">
             <i class="far fa-envelope"></i>
           </a>
         </li>
-      <% } %>
     </ul>
   </div>
