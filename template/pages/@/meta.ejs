@@ -64,8 +64,9 @@ if (pathname) {
 }
 %>
 <% if (path.startsWith('/informacoes/')) { 
+  const fetch = _.require('node-fetch')
   const seo_url_texto = "http://45.55.33.171/teste/comprar-acessorios-para-colheitadeiras.php";
-  const seo_response = await _.fetch(seo_url_texto);
+  const seo_response = await fetch(seo_url_texto);
   const seo_responseJson = await seo_response.json();
   console.log(seo_responseJson);
 %>
