@@ -1,0 +1,65 @@
+
+<%- await include('config'); %>
+<%- await include('textos/alta-durabilidade-em-chinelo-de-palha'); %>
+<!doctype html>
+<html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
+
+<head>
+  <%- await include('../@/head'); %>
+  <%- await include('assets/css/css-seo'); %>
+</head>
+
+<body>
+  
+  <%- await include('../@/layout/menu'); %>
+
+  <main role="main" id="main">
+    <%- await include('../@/layout/header'); %>
+
+    <div class="content_text_4up mb-5" id="container_4up">
+      <div class="container py-5">
+    
+        <header class="div_title_4up">
+          <h1 class="title_h1_4up"><%= global.title %></h1>
+        </header>
+    
+        <div class="row">
+          <div class="col-md-6 text-justify o2">
+            <%=global.text_title%>
+          </div>
+          <div class="col-md-6 o1">
+            <div class="imagem">
+              <img class="d-block img-fluid mx-auto" src="<%=global.url_content_server_developer%>images/placeholder.webp" alt="<%=global.title%>">
+            </div>
+
+            <div class="botao-4up-seo" title="<%=global.title; %>">
+              <div class="animation-bounce-in">
+                <a href="<%=global.linkloja%>" id="btn-linkloja" target="_blank" class="linkLoja"><i class="fas fa-angles-right"></i>Conheça nossos Produtos</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 text-justify pt-5 o3">
+            <div class="texto-restante">
+              <%=global.text_title02%>
+            </div>
+          </div>
+          <div class="col-md-12 texto-rodape o4">
+            <h2 class="subtitle_4up"><%=global.subtitle%></h2>
+            <div class="text_h2_4up">
+              <%=global.text_subtitle%>
+            </div>
+          </div>
+        </div>
+      </div>
+      <%- await include('includes/shared'); %>
+    </div>
+
+    <%- await include('includes/contato-button'); %>
+    <%- await include('../@/layout/footer'); %>
+  </main>
+
+  <%- await include('../@/json') %>
+  <%- await include('../@/scripts'); %>
+</body>
+
+</html>
