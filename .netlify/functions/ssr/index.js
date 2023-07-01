@@ -5,7 +5,7 @@ process.env.STOREFRONT_BASE_DIR = __dirname
 process.env.STOREFRONT_BUNDLES_PATH = path.join(`${__dirname}/bundles.json`)
 
 exports.handler = (ev, context, callback) => {
-  if (/^\/(storefront|checkout)\.[^.]+\.(js|css)$/.test(ev.path)) {
+  if (/^\/(storefront|checkout)\.[^.]+\.(js|css|xml)$/.test(ev.path)) {
     const [filename, , ext] = ev.path.split('.')
     return callback(null, {
       statusCode: 301,
