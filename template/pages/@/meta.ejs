@@ -63,17 +63,19 @@ if (pathname) {
   }
 }
 %>
-
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1">
 <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
 <meta name="theme-color" content="<%= _.primaryColor %>">
 <link rel="icon" href="<%= _.settings.favicon %>">
+<meta name="generator" content="E-Com Plus Storefront">
+
+<% if (!path.startsWith('/informacoes/')) { %>
+<meta name="author" content="<%= _.settings.name %>">
 <title><%= title %></title>
 <meta name="description" content="<%= description %>">
-<meta name="author" content="<%= _.settings.name %>">
-<meta name="generator" content="E-Com Plus Storefront">
+<% } %>
+
 <% if (url) { %>
   <link rel="canonical" href="<%= url %>">
 <% } %>
