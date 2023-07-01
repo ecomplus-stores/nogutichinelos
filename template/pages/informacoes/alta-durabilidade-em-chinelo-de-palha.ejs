@@ -26,6 +26,10 @@ switch (path) {
 
 <head>
   <%- await include('../@/head'); %>
+  <title><%= global.NomeEmpresa %> - <%= global.title %></title>
+  <meta name="author" content="<%= global.author %>">
+  <meta name="description" content="<%= description %>">
+
   <%- await include('assets/css/css-seo'); %>
 
 </head>
