@@ -1,5 +1,24 @@
+<%
+const { path, resource, collection } = _.route
+let diretorio
 
+switch (path) {
+  case '/':
+    case '/index':
+      diretorio = '/'
+      _.pageName = 'home'
+      break
+      default:
+        diretorio = path
+        if (resource) {
+          _.pageName = resource
+        } else {
+          _.pageName = path.slice(1)
+        }
+      }
+%>
 <%- await include('config'); %>
+
 <!doctype html>
 <html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
   <%- await include('textos/alta-durabilidade-em-chinelo-de-palha'); %>
@@ -21,6 +40,7 @@
       <div class="container py-5">
     
         <header class="div_title_4up">
+          <p><%- diretorio %> </p>
           <h1 class="title_h1_4up"><%- global.title %></h1>
         </header>
     
@@ -30,12 +50,12 @@
           </div>
           <div class="col-md-6 o1">
             <div class="imagem">
-              <img class="d-block img-fluid mx-auto" src="https://noguti.com.br/informacoes/images/chinelos-personalizados.webp" alt="<%- global.title; %>">
+              <img class="d-block img-fluid mx-auto" src="<%- global.url_image_dir %>chinelos-personalizados.webp" alt="<%- global.title; %>">
             </div>
 
             <div class="botao-4up-seo" title="<%- global.title; %>">
               <div class="animation-bounce-in">
-                <a href="https://nogutichinelos.com.br/todososprodutos" id="btn-linkloja" target="_blank" class="linkLoja"><i class="i-chevron-right"></i>Conheça nossos produtos</a>
+                <a href="<%- global.linkLoja %>" id="btn-linkloja" target="_blank" class="linkLoja"><i class="i-chevron-right"></i>Conheça nossos produtos</a>
               </div>
             </div>
           </div>
