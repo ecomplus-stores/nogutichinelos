@@ -64,12 +64,6 @@ if (pathname) {
 }
 %>
 
-<!-- TESTE TESTE TESTE
-
-<%- global.desc %>
-
--->
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1">
 <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
@@ -81,6 +75,10 @@ if (pathname) {
 <meta name="author" content="<%= _.settings.name %>">
 <title><%= title %></title>
 <meta name="description" content="<%= description %>">
+<% } else { %>
+<title>global.title</title>
+<meta name="description" content="<%- global.desc %>">
+<script>console.log(<%- global.desc %>)</script>
 <% } %>
 
 <% if (url) { %>
