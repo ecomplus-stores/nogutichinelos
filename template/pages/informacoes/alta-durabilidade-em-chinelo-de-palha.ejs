@@ -13,11 +13,16 @@ switch (path) {
 
       }
 %>
+<%
+  palavra_atual = diretorio.replace("/informacoes/", "")
+  arquivo_texto = diretorio.replace("/informacoes", "textos")
+%>
+
 <%- await include('config'); %>
 
 <!doctype html>
 <html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
-  <%- await include('textos/alta-durabilidade-em-chinelo-de-palha'); %>
+  <%- await include(arquivo_texto); %>
 
 <head>
   <%- await include('../@/head'); %>
@@ -36,8 +41,6 @@ switch (path) {
       <div class="container py-5">
     
         <header class="div_title_4up">
-          <p><%- diretorio %> </p>
-          <p><%- diretorio.replace("/informacoes/", "") %> </p>
           <h1 class="title_h1_4up"><%- global.title %></h1>
         </header>
     
@@ -47,7 +50,7 @@ switch (path) {
           </div>
           <div class="col-md-6 o1">
             <div class="imagem">
-              <img class="d-block img-fluid mx-auto" src="<%- global.url_image_dir %>chinelos-personalizados.webp" alt="<%- global.title; %>">
+              <img class="d-block img-fluid mx-auto" src="<%- global.url_image_dir %><%- palavra_atual %><%- global.image_type %>" alt="<%- global.title; %>">
             </div>
 
             <div class="botao-4up-seo" title="<%- global.title; %>">
