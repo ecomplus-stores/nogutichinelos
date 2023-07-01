@@ -37,8 +37,17 @@ switch (path) {
   <main role="main" id="main">
     <%- await include('../@/layout/header'); %>
 
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb my-2 my-sm-3 d-none d-md-flex">
+          <li class="breadcrumb-item d-none d-md-block"><a class="tm-redirecionamento" href="<%- global.url_site_production %>"><i class="i-home"></i></a></li>
+          <li class="breadcrumb-item d-none d-md-block"><a href="<%- global.url_content_server_developer %>mapa-do-site"></a>Informações</li>
+          <li class="breadcrumb-item d-none d-md-block active" aria-current="page"><%- global.title %></li>
+        </ol>
+      </nav>
+    </div>
     <div class="content_text_4up mb-5" id="container_4up">
-      <div class="container py-5">
+      <div class="container">
     
         <header class="div_title_4up">
           <h1 class="title_h1_4up"><%- global.title %></h1>
