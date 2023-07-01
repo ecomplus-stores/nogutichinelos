@@ -1,95 +1,30 @@
 <%
-const { path, resource, collection } = _.route
-let diretorio
+let keywords, desc, keyfrases, keyregiao, title, text_title, text_title02, subtitulo, text_subtitle, linkLoja, linkPinterest
 
-switch (path) {
-  case '/':
-    case '/index':
-      diretorio = '/'
-      _.pageName = 'home'
-      break
-      default:
-        diretorio = path
+global.keywords	= 'Venda de chinelos de palha antialérgico';
 
-      }
+global.desc		= 'Uma venda de chinelos de palha antialérgico de alta qualidade, você encontra na Noguti Chinelos. Entre em contato.';
+
+global.keyfrases	= '';
+
+global.keyregiao	= 'Venda de chinelos de palha antialérgico';
+
+global.file		= 'venda-de-chinelos-de-palha-antialergico';
+
+global.linkLoja	= 'https://nogutichinelos.com.br/todososprodutos';
+
+global.linkPinterest	= 'imagem_pinterest';
+
+global.title		= 'Venda de chinelos de palha antialérgico';
+
+global.text_title	= '<p>A <strong>Venda de chinelos de palha antialérgico</strong> é essencial para quem tem que administrar uma rotina agitada. Para garantir maior conforto e durabilidade dos produtos, os solados são peças essenciais na sua fabricação.</p><p>Quais as vantagens da <strong>Venda de chinelos de palha antialérgico</strong>?</p><p>O material do chinelo de palha é conhecido por sua alta durabilidade, tornando-o uma opção ecológica e não descartável. O solado deste chinelo não polui o meio ambiente porque é livre de metais pesados. Os itens confeccionados com esse solado também oferecem alto grau de conforto, graças à sua elasticidade e suavidade. Outra grande vantagem do solado desse chinelo é o peso, já que a sua sola é bastante leve devido à sua composição tipo espuma. Isso torna o chinelo muito mais confortável e flexível.</p>';
+
+global.text_title02	= '<p>Vamos conhecer a empresa com a melhor <strong>Venda de chinelos de palha antialérgico</strong>?</p><p>A <a class="tm-redirecionamento" href="https://nogutichinelos.com.br/">Noguti Chinelos</a> oferece aos clientes uma experiência de compra diferenciada com um atendimento focado na satisfação e segurança. Cuidamos de tudo, desde o desenvolvimento do layout até toda a logística. O prazo de entrega é uma das nossas prioridades. Para isso contamos com uma equipe qualificada e treinada que trabalha em harmonia para que tudo saia conforme planejado: vendas, criação, finanças e logística, assim como nossa produção, formada por profissionais que trabalham para entregar um produto de altíssima qualidade.</p><p>Valores da empresa:</p><ul><li>Ética;</li><li>Qualidade;</li><li>Respeito.</li></ul>';
+
+global.subtitulo    = 'Saiba onde encontrar a melhor venda de chinelos de palha antialérgico:';
+
+global.text_subtitle	= '<p>Desde 1980 a <a class="tm-redirecionamento" href="https://nogutichinelos.com.br/">Noguti Chinelos</a> atua no mercado, na fabricação de artefatos de junco, cetin e tecido. Acompanhando as exigências do mercado, está sempre inovando e criando novos modelos, visando o máximo de conforto e qualidade aos nossos clientes. Pensando sempre na satisfação do cliente, a Noguti Chinelos garante um produto de qualidade e conforto em qualquer estação do ano.</p><p>Procurando por uma <strong>Venda de chinelos de palha antialérgico</strong>? Disponibilizamos canais exclusivos para atendimento de nossos clientes. Ligue através do número e fale com a <a class="tm-redirecionamento" href="https://nogutichinelos.com.br/">Noguti Chinelos</a>: <a class="tm-whats" href="https://api.whatsapp.com/send?phone=551338226391" target="_blank">(13) 3822-6391</a>. Nosso objetivo é oferecer a você produtos de qualidade que atendam plenamente às suas necessidades. Para maiores informações sobre a <strong>Venda de chinelos de palha antialérgico</strong>, acesse o nosso site: <a class="tm-redirecionamento" href="https://nogutichinelos.com.br">nogutichinelos.com.br</a> e para não perder nenhuma novidade, basta enviar um e-mail para: <a class="tm-mail" href="mailto:vendas@noguti.com.br">vendas@noguti.com.br</a> e caso preferir venha nos conhecer, estamos localizados na <a class="tm-localizacao" href="https://goo.gl/maps/x19qozu7Me3iqcGy7" target="_blank">Rua José Dias de Araújo, 93 Vila Ribeirópolis Registro SP - CEP 11900-000</a>.</p>';
+
+
+
 %>
-<%
-  palavra_atual = diretorio.replace("/informacoes/", "")
-  arquivo_texto = diretorio.replace("/informacoes", "textos")
-%>
-
-<%- await include('config'); %>
-
-<!doctype html>
-<html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
-  <%- await include(arquivo_texto); %>
-
-<head>
-  <%- await include('../@/head'); %>
-  <%- await include('assets/css/css-seo'); %>
-
-</head>
-
-<body>
-  
-  <%- await include('../@/layout/menu'); %>
-
-  <main role="main" id="main">
-    <%- await include('../@/layout/header'); %>
-
-    <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb my-2 my-sm-3 d-none d-md-flex">
-          <li class="breadcrumb-item d-none d-md-block"><a class="tm-redirecionamento" href="<%- global.url_site_production %>"><i class="i-home"></i></a></li>
-          <li class="breadcrumb-item d-none d-md-block"><a href="<%- global.url_content_server_developer %>mapa-do-site">Informações</a></li>
-          <li class="breadcrumb-item d-none d-md-block active" aria-current="page"><%- global.title %></li>
-        </ol>
-      </nav>
-    </div>
-    <div class="content_text_4up mb-5" id="container_4up">
-      <div class="container">
-    
-        <header class="div_title_4up">
-          <h1 class="title_h1_4up"><%- global.title %></h1>
-        </header>
-    
-        <div class="row">
-          <div class="col-md-6 text-justify o2">
-            <%- global.text_title%>
-          </div>
-          <div class="col-md-6 o1">
-            <div class="imagem">
-              <img width="512" height="512" class="d-block img-fluid mx-auto" src="<%- global.url_image_dir %><%- palavra_atual %><%- global.image_type %>" alt="<%- global.title; %>">
-            </div>
-
-            <div class="botao-4up-seo" title="<%- global.title; %>">
-              <div class="animation-bounce-in">
-                <a href="<%- global.linkLoja %>" id="btn-linkloja" target="_blank" class="linkLoja"><i class="i-chevron-right"></i>Conheça nossos produtos</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-12 text-justify pt-5 o3">
-            <div class="texto-restante">
-              <%- global.text_title02 %>
-            </div>
-          </div>
-          <div class="col-md-12 texto-rodape o4">
-            <h2 class="subtitle_4up"><%- global.subtitulo %></h2>
-            <div class="text_h2_4up">
-              <%- global.text_subtitle %>
-            </div>
-          </div>
-        </div>
-      </div>
-      <%- await include('includes/shared'); %>
-    </div>
-
-    <%- await include('includes/contato-button'); %>
-    <%- await include('../@/layout/footer'); %>
-  </main>
-
-  <%- await include('../@/json') %>
-  <%- await include('../@/scripts'); %>
-</body>
-
-</html>
