@@ -76,8 +76,9 @@ if (pathname) {
 <title><%= title %></title>
 <meta name="description" content="<%= description %>">
 <% } else { %>
-<title><%- global.title %></title>
-<meta name="description" content="<%- global.desc %>">
+  <title><%= global.title %> - <%= global.NomeEmpresa %></title>
+  <meta name="author" content="<%= global.author %>">
+  <meta name="description" content="<%= global.desc %>">
 <% } %>
 
 <% if (url) { %>
