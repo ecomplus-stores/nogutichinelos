@@ -34,13 +34,8 @@ if (Array.isArray(widgets)) {
 }
 
 // page title and description
-if (!path.startsWith('/informacoes/')) {
-  const title = _.state.meta_title || _.state.name || _.state.title || _.settings.name
-  const description = _.state.meta_description || _.state.short_description || _.settings.description
-} else {
-  let title = global.title + " - " + global.NomeEmpresa
-  let description = global.desc
-}
+const title = _.state.meta_title || _.state.name || _.state.title || _.settings.name
+const description = _.state.meta_description || _.state.short_description || _.settings.description
 
 let url, domain, social, ogLocale, ogImage
 if (pathname) {
@@ -155,9 +150,16 @@ if (pathname) {
 <% if (social) { %>
   <meta property="og:site_name" content="<%= _.settings.name %>">
   <meta property="og:url" content="<%= url %>">
-  <meta property="og:title" content="<%= title %>">
 
-  <meta property="og:description" content="<%= description %>">
+
+  <% if (!path.startsWith('/informacoes/')) { %>
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:description" content="<%= description %>">
+  <% } else { %>
+    <meta property="og:title" content="<%= global.title %> - <%= global.NomeEmpresa %>">
+    <meta property="og:description" content="<%= global.desc %>">
+  <% } %>
+
 
   <meta property="og:type" content="website">
   <meta property="og:locale" content="<%= ogLocale %>">
