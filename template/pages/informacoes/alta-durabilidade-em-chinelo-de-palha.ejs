@@ -10,11 +10,7 @@ switch (path) {
       break
       default:
         diretorio = path
-        if (resource) {
-          _.pageName = resource
-        } else {
-          _.pageName = path.slice(1)
-        }
+
       }
 %>
 <%- await include('config'); %>
@@ -41,6 +37,7 @@ switch (path) {
     
         <header class="div_title_4up">
           <p><%- diretorio %> </p>
+          <p><%- diretorio.slice(1) %> </p>
           <h1 class="title_h1_4up"><%- global.title %></h1>
         </header>
     
