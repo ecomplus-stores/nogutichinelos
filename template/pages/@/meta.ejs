@@ -38,8 +38,8 @@ if (!path.startsWith('/informacoes/')) {
   const title = _.state.meta_title || _.state.name || _.state.title || _.settings.name
   const description = _.state.meta_description || _.state.short_description || _.settings.description
 } else {
-  const title = global.title + " - " + global.NomeEmpresa
-  const description = global.desc
+  let title = global.title + " - " + global.NomeEmpresa
+  let description = global.desc
 }
 
 let url, domain, social, ogLocale, ogImage
