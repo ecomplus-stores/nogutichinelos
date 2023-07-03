@@ -302,10 +302,6 @@
           "link": "https://www.instagram.com/p/Cm7aAsROlGb/?utm_source=ig_web_copy_link"
         }
       ]
-    },
-    {
-      "type": "custom-html",
-      "html": "<!-- SnapWidget -->\n<iframe src=\"https://snapwidget.com/embed/1037422\" class=\"snapwidget-widget\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" style=\"border:none; overflow:hidden;  width:765px; height:510px\"></iframe>"
     }
   ]
 }
