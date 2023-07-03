@@ -302,31 +302,6 @@
           "link": "https://www.instagram.com/p/Cm7aAsROlGb/?utm_source=ig_web_copy_link"
         }
       ]
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/1.jpg",
-          "mobile_img": "/img/uploads/1.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/2.jpg",
-          "mobile_img": "/img/uploads/2.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/3.jpg",
-          "mobile_img": "/img/uploads/3.jpg"
-        }
-      ]
     }
   ]
 }
