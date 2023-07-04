@@ -253,24 +253,6 @@
       ]
     },
     {
-      "type": "custom-content",
-      "markdown": "<!--StartFragment-->\n\n⠀⠀⠀⠀⠀⠀⠀⠀⠀\n\n### **Depoimentos de clientes:**\n\n<!--EndFragment-->"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-2-.png"
-        },
-        {
-          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-3-.png"
-        },
-        {
-          "img": "/img/uploads/1447-post-para-instagram-deixe-seu-dia-mais-doce-4-.png"
-        }
-      ]
-    },
-    {
       "type": "custom-html",
       "html": "<div id=\"widbox\" style=\"width: 100%; height: 100%;\" data-widbox-widget-id=\"WhVOKDuY5413XgNLZAjx\"></div><script src=\"https://widbox.sfo3.cdn.digitaloceanspaces.com/scripts/widbox.min.js\" defer></script>"
     },
