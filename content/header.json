@@ -9,7 +9,9 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/slides?Slides"
+    ],
     "random": 12,
     "full_width": true
   },
