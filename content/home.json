@@ -302,6 +302,10 @@
           "link": "https://www.instagram.com/p/Cm7aAsROlGb/?utm_source=ig_web_copy_link"
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-56810641-523e-46f1-a4cd-1741e1f72269\"></div>"
     }
   ]
 }
