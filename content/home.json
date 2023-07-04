@@ -275,35 +275,6 @@
       "markdown": "<!--StartFragment-->\n\n#### **As últimas lá do insta @nogutichinelos...**\n\n<!--EndFragment-->"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/21.jpg",
-          "link": "https://www.instagram.com/reel/Cnfkg_XK2TR/?utm_source=ig_web_copy_link"
-        },
-        {
-          "img": "/img/uploads/17.jpg",
-          "link": "https://www.instagram.com/p/Cne38yWO5gK/?utm_source=ig_web_copy_link"
-        },
-        {
-          "img": "/img/uploads/20.jpg",
-          "link": "https://www.instagram.com/reel/CnSq_ccKdYE/?utm_source=ig_web_copy_link"
-        },
-        {
-          "img": "/img/uploads/19.jpg",
-          "link": "https://www.instagram.com/reel/CnFuPiVqgb6/?utm_source=ig_web_copy_link"
-        },
-        {
-          "img": "/img/uploads/18.jpg",
-          "link": "https://www.instagram.com/reel/CnFKACVKgcm/?utm_source=ig_web_copy_link"
-        },
-        {
-          "img": "/img/uploads/16.jpg",
-          "link": "https://www.instagram.com/p/Cm7aAsROlGb/?utm_source=ig_web_copy_link"
-        }
-      ]
-    },
-    {
       "type": "custom-html",
       "html": "<div id=\"widbox\" style=\"width: 100%; height: 100%;\" data-widbox-widget-id=\"WhVOKDuY5413XgNLZAjx\"></div><script src=\"https://widbox.sfo3.cdn.digitaloceanspaces.com/scripts/widbox.min.js\" defer></script>"
     },
