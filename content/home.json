@@ -302,6 +302,10 @@
           "link": "https://www.instagram.com/p/Cm7aAsROlGb/?utm_source=ig_web_copy_link"
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<div id=\"widbox\" style=\"width: 100%; height: 100%;\" data-widbox-widget-id=\"WhVOKDuY5413XgNLZAjx\"></div><script src=\"https://widbox.sfo3.cdn.digitaloceanspaces.com/scripts/widbox.min.js\" defer></script>"
     }
   ]
 }
