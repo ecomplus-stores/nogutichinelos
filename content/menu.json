@@ -1,5 +1,12 @@
 {
-  "sort_categories": [],
+  "sort_categories": [
+    "chinelos",
+    "pantufas",
+    "slides",
+    "spiders",
+    "maisvendidos",
+    "todososprodutos"
+  ],
   "alphabetical_order": true,
   "phone_wpp": true,
   "socials": true
