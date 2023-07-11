@@ -135,24 +135,24 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/2.jpg",
+          "img": "/img/uploads/banner-chinelo-pc.jpg",
           "link": "https://nogutichinelos.com.br/chinelos",
-          "mobile_img": "/img/uploads/1.jpg"
+          "mobile_img": "/img/uploads/banner-chinelo-mobile.jpg"
         },
         {
-          "img": "/img/uploads/3.jpg",
+          "img": "/img/uploads/banner-pantufa-pc.jpg",
           "link": "https://nogutichinelos.com.br/pantufas",
-          "mobile_img": "/img/uploads/2.jpg"
+          "mobile_img": "/img/uploads/banner-pantufa-mobile.jpg"
         },
         {
-          "img": "/img/uploads/4.jpg",
+          "img": "/img/uploads/banner-slide-pc.jpg",
           "link": "https://nogutichinelos.com.br/slides",
-          "mobile_img": "/img/uploads/3.jpg"
+          "mobile_img": "/img/uploads/banner-slide-mobile.jpg"
         },
         {
-          "img": "/img/uploads/5.jpg",
+          "img": "/img/uploads/banner-spider-pc.jpg",
           "link": "https://nogutichinelos.com.br/spiders",
-          "mobile_img": "/img/uploads/4.jpg"
+          "mobile_img": "/img/uploads/banner-spider-mobile.jpg"
         }
       ]
     },
