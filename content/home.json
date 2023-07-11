@@ -179,6 +179,15 @@
       ]
     },
     {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63dc692cb9e5be077850e494:categories:Spiders:/spiders",
+      "link": "https://nogutichinelos.com.br/spiders",
+      "title": "Spiders"
+    },
+    {
       "type": "custom-content",
       "markdown": "<!--StartFragment-->\n\n#### **Você sabe quais são os benefícios dos chinelos de palha?!**\n\n<!--EndFragment-->"
     },
