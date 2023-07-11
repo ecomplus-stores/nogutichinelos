@@ -135,16 +135,24 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/post-para-instagram-deixe-seu-dia-mais-doce.jpg",
-          "link": "https://nogutichinelos.com.br/slides"
+          "img": "/img/uploads/2.jpg",
+          "link": "https://nogutichinelos.com.br/chinelos",
+          "mobile_img": "/img/uploads/1.jpg"
         },
         {
-          "img": "/img/uploads/2.png",
-          "link": "https://nogutichinelos.com.br/chinelos"
+          "img": "/img/uploads/3.jpg",
+          "link": "https://nogutichinelos.com.br/pantufas",
+          "mobile_img": "/img/uploads/2.jpg"
         },
         {
-          "img": "/img/uploads/4.png",
-          "link": "https://nogutichinelos.com.br/pantufas"
+          "img": "/img/uploads/4.jpg",
+          "link": "https://nogutichinelos.com.br/slides",
+          "mobile_img": "/img/uploads/3.jpg"
+        },
+        {
+          "img": "/img/uploads/5.jpg",
+          "link": "https://nogutichinelos.com.br/spiders",
+          "mobile_img": "/img/uploads/4.jpg"
         }
       ]
     },
