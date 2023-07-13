@@ -149,6 +149,15 @@
       "sort": "name"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63dc692cb9e5be077850e494:categories:Spiders:/spiders",
+      "link": "https://nogutichinelos.com.br/spiders",
+      "title": "Spiders"
+    },
+    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
@@ -159,15 +168,6 @@
           "img": "/img/uploads/banners-4-.png"
         }
       ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63dc692cb9e5be077850e494:categories:Spiders:/spiders",
-      "link": "https://nogutichinelos.com.br/spiders",
-      "title": "Spiders"
     },
     {
       "type": "custom-content",
