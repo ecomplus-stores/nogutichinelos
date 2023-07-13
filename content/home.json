@@ -132,13 +132,6 @@
       "enabled": true
     },
     {
-      "type": "category-carousel",
-      "limit": 5,
-      "offset": 0,
-      "autoplay": 0,
-      "sort": "name"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
@@ -147,6 +140,13 @@
       "headless": false,
       "limit": 12,
       "page": 1
+    },
+    {
+      "type": "category-carousel",
+      "limit": 5,
+      "offset": 0,
+      "autoplay": 0,
+      "sort": "name"
     },
     {
       "type": "banner-slider",
