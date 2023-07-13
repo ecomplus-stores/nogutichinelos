@@ -142,12 +142,6 @@
       "page": 1
     },
     {
-      "type": "category-carousel",
-      "limit": 43,
-      "offset": 0,
-      "sort": null
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
