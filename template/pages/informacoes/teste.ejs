@@ -1,0 +1,95 @@
+<%
+const { path, resource, collection } = _.route
+let diretorio
+
+switch (path) {
+  case '/':
+    case '/index':
+      diretorio = '/'
+      _.pageName = 'home'
+      break
+      default:
+        diretorio = path
+
+      }
+%>
+<%
+  palavra_atual = diretorio.replace("/informacoes/", "")
+  arquivo_texto = diretorio.replace("/informacoes", "textos")
+%>
+
+<%- await include('config'); %>
+
+<!doctype html>
+<html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
+  <%- await include(arquivo_texto); %>
+
+<head>
+  <%- await include('../@/head'); %>
+  <%- await include('assets/css/css-seo'); %>
+
+</head>
+
+<body>
+  
+  <%- await include('../@/layout/menu'); %>
+
+  <main role="main" id="main">
+    <%- await include('../@/layout/header'); %>
+
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb my-2 my-sm-3 d-none d-md-flex">
+          <li class="breadcrumb-item d-none d-md-block"><a class="tm-redirecionamento" href="<%- global.url_site_production %>"><i class="i-home"></i></a></li>
+          <li class="breadcrumb-item d-none d-md-block"><a href="<%- global.url_content_server_developer %>mapa-do-site">Informações</a></li>
+          <li class="breadcrumb-item d-none d-md-block active" aria-current="page"><%- global.title %></li>
+        </ol>
+      </nav>
+    </div>
+    <div class="content_text_4up mb-5" id="container_4up">
+      <div class="container">
+    
+        <header class="div_title_4up">
+          <h1 class="title_h1_4up"><%- global.title %></h1>
+        </header>
+    
+        <div class="row">
+          <div class="col-md-6 text-justify o2">
+            <%- global.text_title%>
+          </div>
+          <div class="col-md-6 o1">
+            <div class="imagem">
+              <img width="512" height="512" class="d-block img-fluid mx-auto" src="<%- global.url_image_dir %><%- palavra_atual %><%- global.image_type %>" alt="<%- global.title; %>">
+            </div>
+
+            <div class="botao-4up-seo" title="<%- global.title; %>">
+              <div class="animation-bounce-in">
+                <a href="<%- global.linkLoja %>" id="btn-linkloja" target="_blank" class="linkLoja"><i class="i-chevron-right"></i>Conheça nossos produtos</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 text-justify pt-5 o3">
+            <div class="texto-restante">
+              <%- global.text_title02 %>
+            </div>
+          </div>
+          <div class="col-md-12 texto-rodape o4">
+            <h2 class="subtitle_4up"><%- global.subtitulo %></h2>
+            <div class="text_h2_4up">
+              <%- global.text_subtitle %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <%- await include('includes/shared'); %>
+    </div>
+
+    <%- await include('includes/contato-button'); %>
+    <%- await include('../@/layout/footer'); %>
+  </main>
+
+  <%- await include('../@/json') %>
+  <%- await include('../@/scripts'); %>
+</body>
+
+</html>
