@@ -38,6 +38,17 @@
         </div>
       </div>
       <%- await include('includes/shared'); %>
+      <div class="item_link_seo_4up text-center">
+        <a class="collapsed" title="Links relacionados" data-toggle="collapse" href="#linksRelacionados" role="button" aria-expanded="false" aria-controls="linksRelacionados">OUTROS LINKS RELACIONADOS</a>
+      </div>
+      
+      <div class="nuven_de_tag_4up collapse" id="linksRelacionados">
+        <div class="list_link_4up">
+          <ul>
+            <%- await include('includes/menu-mapa'); %>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <%- await include('includes/contato-button'); %>
