@@ -1,106 +1,24 @@
 <%
-const { path, resource, collection } = _.route
-let diretorio
+let keywords, desc, keyfrases, keyregiao, title, text_title, text_title02, subtitulo, text_subtitle, linkLoja, linkPinterest, file
 
-switch (path) {
-  case '/':
-    case '/index':
-      diretorio = '/'
-      _.pageName = 'home'
-      break
-      default:
-        diretorio = path
+global.keywords	= 'Orçar sandálias com palmilha de palha para formatura';
 
-      }
+global.desc		= 'Na hora de fazer o seu Orçar sandálias com palmilha de palha para formatura busque por uma empresa confiável e que garanta o melhor produto.';
+
+global.keyfrases	= '';
+
+global.keyregiao	= 'Orçar sandálias com palmilha de palha para formatura';
+
+global.file		= 'orcar-sandalias-com-palmilha-de-palha-para-formatura';
+
+global.linkLoja	= 'https://nogutichinelos.com.br/todososprodutos';
+
+global.linkPinterest	= 'imagem_pinterest';
+
+global.title		= 'Orçar sandálias com palmilha de palha para formatura';
+
+global.text_title	= '<p>O <strong>Orçar sandálias com palmilha de palha para formatura</strong> é uma busca cada vez maior no mercado, esse tipo de sandalha é feita de material natural, o que é uma ótima escolha. Elas são ideais para utilização em ambientes mais casuais, seja em momentos de descanso ou lazer, como em ambientes caseiros, praias, campos, etc. Quem opta por conforto e estilo em seus momentos de descanso e lazer tem na busca por um <strong>Orçar sandálias com palmilha de palha para formatura</strong> a melhor opção.</p><p>Mas, com quem você pode adquirir um <strong>Orçar sandálias com palmilha de palha para formatura</strong> com ótimos valores e qualidade? a <a class="tm-redirecionamento" href="https://nogutichinelos.com.br">Noguti Chinelos</a> é a resposta certa, quem escolhe nossos produtos está optando por poder contar com estilo e design inovador em seus pés, tendo qualidade e durabilidade que o cliente merece. Estes calçados podem ser mais delicados e muitos confortáveis e temos inúmeros modelos para qualquer idade, seja adulto, idoso ou criança, homem ou mulher. Contamos com uma variedade de cores ou elementos decorativos que podem compor ainda mais o seu <strong>Orçar sandálias com palmilha de palha para formatura</strong>.</p>';
+
+global.text_title02	= '<p><strong>Orçar sandálias com palmilha de palha para formatura</strong>: Por que comprar com a <a class="tm-redirecionamento" href="https://nogutichinelos.com.br">Noguti Chinelos</a>?</p><ul><li>Porque prezamos pela qualidade de todos os nossos produtos</li><li>Estamos sempre seguindo as tendências de moda do mercado</li><li>Estamos mais de 30 anos no mercado</li></ul><p>Quem decide fazer <strong>Orçar sandálias com palmilha de palha para formatura</strong> conosco opta por uma empresa focada em sustentabilidade. Nossos processos utilizam a melhor tecnologia e técnicas para otimizar os resultados para você.</p><p>O nosso <strong>Orçar sandálias com palmilha de palha para formatura</strong> é sinônimo de conforto, qualidade e preço baixo é aqui no <a class="tm-redirecionamento" href="https://nogutichinelos.com.br">Noguti Chinelos</a>. Desde 1980, estamos no mercado para oferecer ao cliente o que ele merece. Nossa localização é Rua José Dias de Araújo, 93 Vila Ribeirópolis Registro SP, mas se ficar muito longe para você, temos a opção de compra online para maior comodidade e conforto. Slides, pantufas, chinelos calçados de cores lisas, animal print, neon, poás e entre tantos outros produtos lindos e que combinam com qualquer situação em que você calça-los. Aliando a tecnologia à tranquilidade de escolher onde quiser e com facilidade, temos o nosso Whatsapp que é o número <a class="tm-whats"href="https://api.whatsapp.com/send?phone=551338226391">13 3822-6391</a> para te ajudar na hora da compra. Tudo isto para ajudar o consumidor a escolher o que quiser por um preço justo. Venha conferir as novidades em nossas redes sociais, no Instagram, estamos no Instagram @nogutichinelos e no Facebook como Noguti.</p><p>Em nosso site, você pode encontrar ofertas e opções para diferentes gostos e públicos, encontre o modelo ideal para a ocasião certa. Estamos sempre antenados na moda e optando por produtos com alta qualidade e com padrão de moda para todas as faixas-etárias da família e com preços que cabem em todos os bolsos. Não perca tempo e venha nos conhecer, mesmo que seja online. Estamos te esperando e queremos fazer parte da sua rotina mais confortável. Venha fazer conosco o seu <strong>Orçar sandálias com palmilha de palha para formatura</strong>.</p>';
+
 %>
-<%
-  palavra_atual = diretorio.replace("/informacoes/", "")
-  arquivo_texto = diretorio.replace("/informacoes", "textos")
-%>
-
-<%- await include('config'); %>
-
-<!doctype html>
-<html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
-  <%- await include(arquivo_texto); %>
-
-<head>
-  <%- await include('../@/head'); %>
-  <%- await include('assets/css/css-seo'); %>
-
-</head>
-
-<body>
-  
-  <%- await include('../@/layout/menu'); %>
-
-  <main role="main" id="main">
-    <%- await include('../@/layout/header'); %>
-
-    <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb my-2 my-sm-3 d-none d-md-flex">
-          <li class="breadcrumb-item d-none d-md-block"><a class="tm-redirecionamento" href="<%- global.url_site_production %>"><i class="i-home"></i></a></li>
-          <li class="breadcrumb-item d-none d-md-block"><a href="<%- global.url_content_server_developer %>mapa-do-site">Informações</a></li>
-          <li class="breadcrumb-item d-none d-md-block active" aria-current="page"><%- global.title %></li>
-        </ol>
-      </nav>
-    </div>
-    <div class="content_text_4up mb-5" id="container_4up">
-      <div class="container">
-    
-        <header class="div_title_4up">
-          <h1 class="title_h1_4up"><%- global.title %></h1>
-        </header>
-    
-        <div class="row">
-          <div class="col-md-6 text-justify o2">
-            <%- global.text_title%>
-          </div>
-          <div class="col-md-6 o1">
-            <div class="imagem">
-              <img width="512" height="512" class="d-block img-fluid mx-auto" src="<%- global.url_image_dir %><%- palavra_atual %><%- global.image_type %>" alt="<%- global.title; %>">
-            </div>
-
-            <div class="botao-4up-seo" title="<%- global.title; %>">
-              <div class="animation-bounce-in">
-                <a href="<%- global.linkLoja %>" id="btn-linkloja" target="_blank" class="linkLoja"><i class="i-chevron-right"></i>Conheça nossos produtos</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-12 text-justify pt-5 o3">
-            <div class="texto-restante">
-              <%- global.text_title02 %>
-            </div>
-          </div>
-          <div class="col-md-12 texto-rodape o4">
-            <h2 class="subtitle_4up"><%- global.subtitulo %></h2>
-            <div class="text_h2_4up">
-              <%- global.text_subtitle %>
-            </div>
-          </div>
-        </div>
-      </div>
-      <%- await include('includes/shared'); %>
-      <div class="item_link_seo_4up text-center">
-        <a class="collapsed" title="Links relacionados" data-toggle="collapse" href="#linksRelacionados" role="button" aria-expanded="false" aria-controls="linksRelacionados">OUTROS LINKS RELACIONADOS</a>
-      </div>
-      
-      <div class="nuven_de_tag_4up collapse" id="linksRelacionados">
-        <div class="list_link_4up">
-          <ul>
-            <%- await include('includes/menu-mapa'); %>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <%- await include('includes/contato-button'); %>
-    <%- await include('../@/layout/footer'); %>
-  </main>
-
-  <%- await include('../@/json') %>
-  <%- await include('../@/scripts'); %>
-</body>
-
-</html>

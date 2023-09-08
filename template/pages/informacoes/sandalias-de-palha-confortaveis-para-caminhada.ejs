@@ -1,106 +1,26 @@
 <%
-const { path, resource, collection } = _.route
-let diretorio
+let keywords, desc, keyfrases, keyregiao, title, text_title, text_title02, subtitulo, text_subtitle, linkLoja, linkPinterest, file
 
-switch (path) {
-  case '/':
-    case '/index':
-      diretorio = '/'
-      _.pageName = 'home'
-      break
-      default:
-        diretorio = path
+global.keywords	= 'Sandálias de palha confortáveis para caminhada';
 
-      }
+global.desc		= 'Sandálias de palha confortáveis para caminhada com excelente qualidade você encontra na Noguti, uma empresa dedicada a você.';
+
+global.keyfrases	= '';
+
+global.keyregiao	= 'Sandálias de palha confortáveis para caminhada';
+
+global.file		= 'sandalias-de-palha-confortaveis-para-caminhada';
+
+global.linkLoja	= 'https://nogutichinelos.com.br/todososprodutos';
+
+global.linkPinterest	= 'imagem_pinterest';
+
+global.title		= 'Sandálias de palha confortáveis para caminhada';
+
+global.text_title	= '<p>As <strong>Sandálias de palha confortáveis para caminhada</strong> dão a sensação de conforto, arejamento e segurança aos pés na hora de realizar exercícios de caminhada, num passeio ou até mesmo no trabalho. Esse tipo de solução une designer criado para otimizar seus passos e gerar mais conforto e a sustentabilidade de um produto feito de palha. Por isso, optar por <strong>Sandálias de palha confortáveis para caminhada</strong> tem se tornado uma excelente opção no mercado.</p><p>Agora que entendemos a importância das <strong>Sandálias de palha confortáveis para caminhada</strong> e porque elas são tão usadas o próximo passo é entender qual empresa pode te atender. No mercado existe uma empresa que se destaca nesse tipo de fornecimento e a resposta é a <a class="tm-redirecionamento" href="https://nogutichinelos.com.br">Noguti Chinelos</a>. A nossa empresa aposta nas <strong>Sandálias de palha confortáveis para caminhada</strong> para proporcionar a você a sensação de descanso e conforto ao calçar. Para aqueles que priorizam materiais naturais e sustentáveis, nossos produtos podem ser uma ótima escolha, pois acreditamos no futuro do meio ambiente alinhado àquilo que fazemos com qualidade para durar ainda mais e ser seu companheiro em todos os momentos. Produzimos tudo com carinho que o cliente merece e queremos entender cada necessidade para entregar o melhor sempre.</p>';
+
+global.subtitulo    = 'Sandálias de palha confortáveis para caminhada: Por que comprar de uma empresa com história no mercado?';
+
+global.text_subtitle	= '<ul><li>Nossos produtos são de extrema qualidade e durabilidade</li><li>Pensamos no meio ambiente na nossa produção</li><li>Variadas opções de cor, modelo e tamanho para escolher</li></ul><p>As nossas <strong>Sandálias de palha confortáveis para caminhada</strong>, além de prezar pelo conforto, ajudam a prevenir lesões relacionadas ao esforço repetitivo, choque de impacto e má postura, além de ajustar o calçado ao formato do pé. Comprar com quem tem conhecimento do que está fazendo é saber que comprará o melhor em questão de qualidade, durabilidade e estilo, pois queremos sempre entregar o que consumidor está procurando.</p><p><strong>Sandálias de palha confortáveis para caminhada</strong> é sinônimo de conforto, qualidade e preço baixo é aqui no <a class="tm-redirecionamento" href="https://nogutichinelos.com.br">Noguti Chinelos</a>. Desde 1980, estamos no mercado para oferecer ao cliente o que ele merece. Nossa localização é Rua José Dias de Araújo, 93 Vila Ribeirópolis Registro SP, mas se ficar muito longe para você, temos a opção de compra online para maior comodidade e conforto. Slides, pantufas, chinelos calçados de cores lisas, animal print, neon, poás e entre tantos outros produtos lindos e que combinam com qualquer situação em que você calça-los.  Aliando a tecnologia à tranquilidade de escolher onde quiser e com facilidade, temos o nosso Whatsapp que é o número <a class="tm-whats"href="https://api.whatsapp.com/send?phone=551338226391">13 3822-6391</a> para te ajudar na hora da compra. Tudo isto para ajudar o consumidor a escolher o que quiser por um preço justo. Venha conferir as novidades em nossas redes sociais, no Instagram, estamos no Instagram @nogutichinelos e no Facebook como Noguti.</p><p>Em nosso site, você pode encontrar ofertas e opções para diferentes gostos e públicos, encontre o modelo ideal para a ocasião certa. Estamos sempre antenados na moda e optando por produtos com alta qualidade e com padrão de moda para todas as faixas-etárias da família e com preços que cabem em todos os bolsos. Não perca tempo e venha nos conhecer, mesmo que seja online. Estamos te esperando e queremos fazer parte da sua rotina mais confortável. Venha conhecer as nossas   <strong>Sandálias de palha confortáveis para caminhada</strong>.</p>';
+
 %>
-<%
-  palavra_atual = diretorio.replace("/informacoes/", "")
-  arquivo_texto = diretorio.replace("/informacoes", "textos")
-%>
-
-<%- await include('config'); %>
-
-<!doctype html>
-<html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
-  <%- await include(arquivo_texto); %>
-
-<head>
-  <%- await include('../@/head'); %>
-  <%- await include('assets/css/css-seo'); %>
-
-</head>
-
-<body>
-  
-  <%- await include('../@/layout/menu'); %>
-
-  <main role="main" id="main">
-    <%- await include('../@/layout/header'); %>
-
-    <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb my-2 my-sm-3 d-none d-md-flex">
-          <li class="breadcrumb-item d-none d-md-block"><a class="tm-redirecionamento" href="<%- global.url_site_production %>"><i class="i-home"></i></a></li>
-          <li class="breadcrumb-item d-none d-md-block"><a href="<%- global.url_content_server_developer %>mapa-do-site">Informações</a></li>
-          <li class="breadcrumb-item d-none d-md-block active" aria-current="page"><%- global.title %></li>
-        </ol>
-      </nav>
-    </div>
-    <div class="content_text_4up mb-5" id="container_4up">
-      <div class="container">
-    
-        <header class="div_title_4up">
-          <h1 class="title_h1_4up"><%- global.title %></h1>
-        </header>
-    
-        <div class="row">
-          <div class="col-md-6 text-justify o2">
-            <%- global.text_title%>
-          </div>
-          <div class="col-md-6 o1">
-            <div class="imagem">
-              <img width="512" height="512" class="d-block img-fluid mx-auto" src="<%- global.url_image_dir %><%- palavra_atual %><%- global.image_type %>" alt="<%- global.title; %>">
-            </div>
-
-            <div class="botao-4up-seo" title="<%- global.title; %>">
-              <div class="animation-bounce-in">
-                <a href="<%- global.linkLoja %>" id="btn-linkloja" target="_blank" class="linkLoja"><i class="i-chevron-right"></i>Conheça nossos produtos</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-12 text-justify pt-5 o3">
-            <div class="texto-restante">
-              <%- global.text_title02 %>
-            </div>
-          </div>
-          <div class="col-md-12 texto-rodape o4">
-            <h2 class="subtitle_4up"><%- global.subtitulo %></h2>
-            <div class="text_h2_4up">
-              <%- global.text_subtitle %>
-            </div>
-          </div>
-        </div>
-      </div>
-      <%- await include('includes/shared'); %>
-      <div class="item_link_seo_4up text-center">
-        <a class="collapsed" title="Links relacionados" data-toggle="collapse" href="#linksRelacionados" role="button" aria-expanded="false" aria-controls="linksRelacionados">OUTROS LINKS RELACIONADOS</a>
-      </div>
-      
-      <div class="nuven_de_tag_4up collapse" id="linksRelacionados">
-        <div class="list_link_4up">
-          <ul>
-            <%- await include('includes/menu-mapa'); %>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <%- await include('includes/contato-button'); %>
-    <%- await include('../@/layout/footer'); %>
-  </main>
-
-  <%- await include('../@/json') %>
-  <%- await include('../@/scripts'); %>
-</body>
-
-</html>
