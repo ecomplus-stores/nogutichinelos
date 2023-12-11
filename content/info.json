@@ -1,21 +1,21 @@
 {
   "shipping": {
     "show": true,
-    "text": "para todo o Brasil",
-    "title": "ENVIO IMEDIATO"
+    "text": "Envio imediato para todo o Brasil",
+    "title": ""
   },
   "installments": {
     "show": true,
-    "text": "5X sem juros ",
-    "title": "PARCELE EM ATÉ 12X"
+    "text": "Parcele em até 12 x (5x sem juros) ",
+    "title": ""
   },
   "exchange": {
     "show": false,
-    "text": "5% de desconto ",
-    "title": "DESCONTO NO PIX"
+    "text": "5% de desconto no PIX",
+    "title": ""
   },
   "promo": {
     "show": false,
-    "text": ""
+    "text": "Qualquer dúvida, entre em contato! "
   }
 }
