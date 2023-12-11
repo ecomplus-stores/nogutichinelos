@@ -59,6 +59,19 @@
       "enabled": true
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "2023-12-11T20:58:27.339Z",
+          "end": "2024-12-01T17:32:20.106Z",
+          "img": "/img/uploads/promocao.jpg",
+          "mobile_img": "/img/uploads/2.png"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
@@ -74,19 +87,6 @@
       "offset": 0,
       "autoplay": 0,
       "sort": "name"
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": true,
-      "slides": [
-        {
-          "start": "2023-12-11T20:58:27.339Z",
-          "end": "2024-12-01T17:32:20.106Z",
-          "img": "/img/uploads/promocao.jpg",
-          "mobile_img": "/img/uploads/2.png"
-        }
-      ]
     },
     {
       "type": "collection-shelf",
