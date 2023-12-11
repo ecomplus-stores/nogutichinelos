@@ -128,16 +128,6 @@
       "title": "Ofertas"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "sort": "views",
-      "collection_id": "617f1184239b7206d3fac8fd:categories:Todos os produtos:/todososprodutos",
-      "title": "Todos os produtos",
-      "link": "/todososprodutos"
-    },
-    {
       "type": "page-title",
       "title": "Gostou dos nossos produtos?",
       "description": " Leve a gente para a sua festa de casamento, aniversário, formatura... Assim seu evento será inesquecível!"
@@ -160,6 +150,16 @@
           "link": "https://noguti.com.br/"
         }
       ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "sort": "views",
+      "collection_id": "617f1184239b7206d3fac8fd:categories:Todos os produtos:/todososprodutos",
+      "title": "Todos os produtos",
+      "link": "/todososprodutos"
     },
     {
       "type": "custom-html",
