@@ -82,6 +82,11 @@
       "page": 1
     },
     {
+      "type": "page-title",
+      "title": "Todas as categorias",
+      "description": "conforto e estilo garantidos! "
+    },
+    {
       "type": "category-carousel",
       "limit": 5,
       "offset": 0,
