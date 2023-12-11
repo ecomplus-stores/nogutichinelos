@@ -1,18 +1,21 @@
 {
   "shipping": {
     "show": true,
-    "text": "ENTREGAMOS PARA TODO O BRASIL"
+    "text": "para todo o Brasil",
+    "title": "ENVIO IMEDIATO"
   },
   "installments": {
     "show": true,
-    "text": " PARCELE EM ATÉ 12 X (5X SEM JUROS)"
+    "text": "5X sem juros ",
+    "title": "PARCEL EM ATÉ 12X"
   },
   "exchange": {
     "show": false,
-    "text": "NA COMPRA DE 6 PARES, GANHE 10% DE DESCONTO!!"
+    "text": "5% de desconto ",
+    "title": "DESCONTO NO PIX"
   },
   "promo": {
     "show": false,
-    "text": "FRETE GRÁTIS NAS COMPRAS ACIMA DE 120,00. PARA AS REGIÕES SUL E SUDESTE."
+    "text": ""
   }
 }
