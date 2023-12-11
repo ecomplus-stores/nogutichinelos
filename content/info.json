@@ -11,11 +11,12 @@
   },
   "exchange": {
     "show": true,
-    "text": "5% de desconto no PIX",
+    "text": "Qualquer dúvida, entre em contato! ",
     "title": ""
   },
   "promo": {
     "show": true,
-    "text": "Qualquer dúvida, entre em contato! "
+    "text": "5% de desconto no PIX",
+    "title": ""
   }
 }
