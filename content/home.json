@@ -47,9 +47,10 @@
           "mobile_img": "/img/uploads/mobile-4-frete-gratis.jpg"
         },
         {
-          "start": "",
-          "end": "2023-12-31T17:02:17.584Z",
-          "img": "/img/uploads/banners-5-.png"
+          "start": "2023-12-11T20:35:17.514Z",
+          "end": "2024-12-31T17:02:17.584Z",
+          "img": "/img/uploads/banners-5-.png",
+          "mobile_img": "/img/uploads/mobile-5-frete-reduzido.jpg"
         }
       ]
     },
