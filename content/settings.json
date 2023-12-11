@@ -4,13 +4,13 @@
   "primary_color": "#000000",
   "theme": {
     "bootswatch": "_",
-    "custom": "_"
+    "custom": "ecom-beauty"
   },
   "bg_color": "#ffffff",
+  "repository": "ecomplus-stores/nogutichinelos",
   "logo": "/img/uploads/1620748064711-logonoguti.png",
   "name": "Noguti Chinelos",
   "short_name": "nogutichinelos",
-  "repository": "ecomplus-stores/nogutichinelos",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
