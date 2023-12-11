@@ -137,6 +137,11 @@
       "markdown": "#### **Gostou dos nossos produtos? Leve a gente para a sua festa de casamento, aniversário, formatura... Assim seu evento será inesquecível!**"
     },
     {
+      "type": "page-title",
+      "title": "Gostou dos nossos produtos?",
+      "description": " Leve a gente para a sua festa de casamento, aniversário, formatura... Assim seu evento será inesquecível!"
+    },
+    {
       "type": "banner-slider",
       "autoplay": 18000,
       "full_width": true,
