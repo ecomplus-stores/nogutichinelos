@@ -110,16 +110,9 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/1447-nogutichinelos-18-.png",
-          "link": "/todososprodutos"
-        },
-        {
-          "img": "/img/uploads/1447-nogutichinelos-20-.png",
-          "link": "/todososprodutos"
-        },
-        {
-          "img": "/img/uploads/1447-nogutichinelos-19-.png",
-          "link": "/todososprodutos"
+          "img": "/img/uploads/benefits.jpg",
+          "link": "/todososprodutos",
+          "mobile_img": "/img/uploads/benefits.jpg"
         }
       ]
     },
