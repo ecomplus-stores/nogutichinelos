@@ -4,15 +4,15 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 11000,
+      "autoplay": 10000,
       "full_width": true,
       "slides": [
         {
-          "start": "2023-12-11T20:21:05.571Z",
-          "end": "2024-12-31T03:00:00.000Z",
-          "img": "/img/uploads/53.png",
-          "link": "https://nogutichinelos.com.br/slides",
-          "mobile_img": "/img/uploads/mobile-natal-1.jpg"
+          "start": "2023-12-29T21:56:17.208Z",
+          "end": "2025-03-01T03:00:00.000Z",
+          "img": "/img/uploads/61.jpg",
+          "link": "https://nogutichinelos.com.br/neon",
+          "mobile_img": "/img/uploads/verao1.jpg"
         },
         {
           "start": "2023-12-11T20:20:23.744Z",
