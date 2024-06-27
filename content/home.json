@@ -42,6 +42,14 @@
       "enabled": true
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "667da511f4e6d85ab2bbd3ea:categories:Xadrez:/xadrez",
+      "title": "Lançamento: Estampas Xadrez ♟️"
+    },
+    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
@@ -173,14 +181,6 @@
           "link": "https://nogutichinelos.com.br/pantufas"
         }
       ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "667da511f4e6d85ab2bbd3ea:categories:Xadrez:/xadrez",
-      "title": "Lançamento: Estampas Xadrez ♟️"
     },
     {
       "type": "page-title",
