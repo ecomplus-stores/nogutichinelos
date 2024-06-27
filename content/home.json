@@ -1,5 +1,5 @@
 {
-  "meta_title": "",
+  "meta_title": "Estampas Xadrez! Lançamento 🚀",
   "meta_description": "",
   "sections": [
     {
@@ -175,6 +175,13 @@
     {
       "type": "custom-html",
       "html": "<!-- Place <div> tag where you want the feed to appear -->\n<div id=\"curator-feed-default-feed-layout\"><a href=\"https://curator.io\" target=\"_blank\" class=\"crt-logo crt-tag\">Powered by Curator.io</a></div>\n\n<!-- The Javascript can be moved to the end of the html page before the </body> tag -->\n<script type=\"text/javascript\">\n/* curator-feed-default-feed-layout */\n(function(){\nvar i,e,d=document,s=\"script\";i=d.createElement(\"script\");i.async=1;i.charset=\"UTF-8\";\ni.src=\"https://cdn.curator.io/published/cc6df27a-37ad-442f-b872-834876133cc2.js\";\ne=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);\n})();\n</script>"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "667da511f4e6d85ab2bbd3ea:categories:Xadrez:/xadrez"
     }
   ]
 }
