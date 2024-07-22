@@ -8,32 +8,32 @@
       "full_width": true,
       "slides": [
         {
-          "start": "2024-06-27T19:49:38.127Z",
-          "end": "2024-07-27T03:00:00.000Z",
-          "img": "/img/uploads/banners-desktop-1-.png",
-          "mobile_img": "/img/uploads/banners-mobile-2-1-.png",
-          "link": "https://nogutichinelos.com.br/xadrez"
+          "start": "2024-07-22T02:11:23.066Z",
+          "end": "2024-08-12T03:00:00.000Z",
+          "img": "/img/uploads/74.png",
+          "mobile_img": "/img/uploads/17.png",
+          "link": ""
         },
         {
-          "start": "2024-05-22T01:07:17.924Z",
-          "end": "2024-08-01T03:00:00.000Z",
-          "mobile_img": "/img/uploads/14.png",
+          "start": "2024-07-22T02:12:06.734Z",
+          "end": "2024-09-01T03:00:00.000Z",
+          "mobile_img": "/img/uploads/16.png",
           "link": "https://nogutichinelos.com.br/pantufas",
-          "img": "/img/uploads/72.png"
+          "img": "/img/uploads/75.png"
         },
         {
-          "start": "2024-05-22T01:08:30.832Z",
+          "start": "2024-07-22T02:12:39.889Z",
           "end": "2025-03-01T03:00:00.000Z",
-          "img": "/img/uploads/70.png",
+          "img": "/img/uploads/76.png",
           "link": "https://nogutichinelos.com.br/todososprodutos",
-          "mobile_img": "/img/uploads/11.png"
+          "mobile_img": "/img/uploads/18.png"
         },
         {
-          "start": "2024-05-22T01:10:01.704Z",
+          "start": "2024-07-22T02:13:04.156Z",
           "end": "2025-03-01T03:00:00.000Z",
-          "img": "/img/uploads/71.png",
+          "img": "/img/uploads/77.png",
           "link": "https://nogutichinelos.com.br/todososprodutos",
-          "mobile_img": "/img/uploads/12.png"
+          "mobile_img": "/img/uploads/19.png"
         }
       ]
     },
