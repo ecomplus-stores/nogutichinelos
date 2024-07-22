@@ -102,9 +102,14 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/slides.jpg",
+          "img": "/img/uploads/beneficios1.png",
           "link": "/todososprodutos",
-          "mobile_img": "/img/uploads/slides.jpg"
+          "mobile_img": "/img/uploads/beneficios1.png"
+        },
+        {
+          "img": "/img/uploads/beneficios2.png",
+          "mobile_img": "/img/uploads/beneficios2.png",
+          "link": "/todososprodutos"
         }
       ]
     },
