@@ -8,6 +8,13 @@
       "full_width": true,
       "slides": [
         {
+          "start": "2025-04-06T01:04:06.725Z",
+          "end": "2025-12-31T03:00:00.000Z",
+          "mobile_img": "/img/uploads/slide-zen.png",
+          "img": "/img/uploads/banner-noguti-3.png",
+          "link": "https://nogutichinelos.com.br/slide-zen"
+        },
+        {
           "start": "",
           "end": "2025-05-31T17:42:45.732Z",
           "img": "/img/uploads/80.png",
@@ -20,13 +27,6 @@
           "img": "/img/uploads/79.png",
           "mobile_img": "/img/uploads/21.png",
           "link": "https://nogutichinelos.com.br/todososprodutos"
-        },
-        {
-          "start": "2025-04-06T01:04:06.725Z",
-          "end": "2025-12-31T03:00:00.000Z",
-          "mobile_img": "/img/uploads/slide-zen.png",
-          "img": "/img/uploads/banner-noguti-3.png",
-          "link": "https://nogutichinelos.com.br/slide-zen"
         }
       ]
     },
