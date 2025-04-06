@@ -35,6 +35,12 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/lancamentozendesktop.png",
+      "link": "https://nogutichinelos.com.br/slide-zen",
+      "mobile_img": "/img/uploads/slide-zen.png"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
