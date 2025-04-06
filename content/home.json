@@ -35,6 +35,14 @@
       "enabled": true
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 3,
+      "page": 1,
+      "collection_id": "67f1e460ef51eb1c90c6f515:categories:Lançamento ZEN:/lancamento-zen",
+      "title": "Lançamento: nova slide ZEN!"
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/lancamentozendesktop.png",
       "link": "https://nogutichinelos.com.br/slide-zen",
