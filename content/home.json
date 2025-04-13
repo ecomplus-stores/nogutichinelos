@@ -8,6 +8,13 @@
       "full_width": true,
       "slides": [
         {
+          "start": "",
+          "end": "2025-05-12T03:00:00.000Z",
+          "img": "/img/uploads/banner-dia-das-maes-pantufa-desktop.png",
+          "mobile_img": "/img/uploads/banner-dia-das-maes-pantufa-mobile.png",
+          "link": "https://nogutichinelos.com.br/pantufa-para-colorir-e-pintar"
+        },
+        {
           "start": "2025-02-07T17:43:47.062Z",
           "end": "2026-12-11T03:00:00.000Z",
           "img": "/img/uploads/lancamentozendesktop.png",
