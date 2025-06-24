@@ -632,18 +632,6 @@
     </url>
   
     <url>
-      <loc>https://nogutichinelos.com.br/estampas-florais</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://nogutichinelos.com.br/ofertas</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://nogutichinelos.com.br/poas</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -698,6 +686,12 @@
     </url>
   
     <url>
+      <loc>https://nogutichinelos.com.br/ofertas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://nogutichinelos.com.br/todososprodutos</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -723,6 +717,12 @@
   
     <url>
       <loc>https://nogutichinelos.com.br/lancamento-zen</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://nogutichinelos.com.br/estampas-florais</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
