@@ -202,6 +202,18 @@
     {
       "type": "custom-html",
       "html": "<!-- Place <div> tag where you want the feed to appear -->\n<div id=\"curator-feed-default-feed-layout\"><a href=\"https://curator.io\" target=\"_blank\" class=\"crt-logo crt-tag\">Powered by Curator.io</a></div>\n\n<!-- The Javascript can be moved to the end of the html page before the </body> tag -->\n<script type=\"text/javascript\">\n/* curator-feed-default-feed-layout */\n(function(){\nvar i,e,d=document,s=\"script\";i=d.createElement(\"script\");i.async=1;i.charset=\"UTF-8\";\ni.src=\"https://cdn.curator.io/published/cc6df27a-37ad-442f-b872-834876133cc2.js\";\ne=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);\n})();\n</script>"
+    },
+    {
+      "type": "review-carousel",
+      "autoplay": 9000,
+      "reviews": [
+        {
+          "nome": "Carolina Idem",
+          "cidade": "",
+          "texto": "Mais uma vez todas amaram muito os chinelos, eles são lindos e extremamente confortáveis!! Me surpreenderam novamente depois de 9 anos da minha festa de 15 anos. Espero ainda contar com vocês para outros momentos importantes da minha vida. Muuito obrigada por toda atenção, dedicação e cuidados em nos atender. "
+        }
+      ],
+      "title": "O que nossos clientes estão dizendo"
     }
   ]
 }
