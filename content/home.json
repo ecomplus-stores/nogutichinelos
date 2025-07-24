@@ -8,6 +8,13 @@
       "full_width": true,
       "slides": [
         {
+          "start": "2025-07-24T17:10:16.945Z",
+          "end": "2025-08-31T03:00:00.000Z",
+          "img": "/img/uploads/banners-desktop.png",
+          "link": "https://nogutichinelos.com.br/app/#/cart",
+          "mobile_img": "/img/uploads/cupom-bemvindo5.png"
+        },
+        {
           "start": "2025-06-18T11:37:13.762Z",
           "end": "2025-12-31T17:42:45.732Z",
           "img": "/img/uploads/img_8531.png",
@@ -27,13 +34,6 @@
           "img": "/img/uploads/lancamentozendesktop.png",
           "mobile_img": "/img/uploads/slide-zen.png",
           "link": "https://nogutichinelos.com.br/lancamento-zen"
-        },
-        {
-          "start": "2025-07-24T17:10:16.945Z",
-          "end": "2025-08-31T03:00:00.000Z",
-          "img": "/img/uploads/banners-desktop.png",
-          "link": "https://nogutichinelos.com.br/app/#/cart",
-          "mobile_img": "/img/uploads/cupom-bemvindo5.png"
         }
       ]
     },
