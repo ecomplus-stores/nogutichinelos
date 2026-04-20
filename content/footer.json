@@ -11,7 +11,12 @@
   "links_2": {
     "list_categories": true,
     "title": "Categorias",
-    "list": []
+    "list": [
+      {
+        "url": "https://nogutichinelos.com.br/blog",
+        "text": "Blog"
+      }
+    ]
   },
   "contacts": {
     "title": "Contatos",
