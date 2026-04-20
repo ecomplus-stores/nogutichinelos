@@ -1,5 +1,5 @@
 {
-  "meta_title": "Noguti Chinelos",
+  "meta_title": "Blog",
   "meta_description": "",
   "sections": [
     {
@@ -247,6 +247,10 @@
         }
       ],
       "title": "O que nossos clientes estão dizendo"
+    },
+    {
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
