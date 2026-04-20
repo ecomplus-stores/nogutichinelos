@@ -6,17 +6,17 @@
   "links_1": {
     "list_pages": true,
     "title": "Páginas",
-    "list": []
+    "list": [
+      {
+        "text": "Blog",
+        "url": "https://nogutichinelos.com.br/blog"
+      }
+    ]
   },
   "links_2": {
     "list_categories": true,
     "title": "Categorias",
-    "list": [
-      {
-        "url": "https://nogutichinelos.com.br/blog",
-        "text": "Blog"
-      }
-    ]
+    "list": []
   },
   "contacts": {
     "title": "Contatos",
