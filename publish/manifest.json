@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.2f79fcd5de29989cf65354ca029e212e.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.b176f2ad275a302019b12df4fe5956e4.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.a9e05f5f008d2197578e58cba839d578.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.afd48a4b67c535bb5f73c3f910de7247.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.bd04a4bf1d51df7d5d64bc9418478d28.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Noguti Chinelos",
+  "short_name": "nogutichinelos",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "nogutichinelos",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
