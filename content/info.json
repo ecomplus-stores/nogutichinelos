@@ -6,17 +6,18 @@
   },
   "installments": {
     "show": true,
-    "text": "Parcele em até 12 x (3x sem juros) ",
-    "title": ""
+    "text": "5% de desconto no PIX",
+    "title": "",
+    "link": ""
   },
   "exchange": {
     "show": true,
-    "text": "Qualquer dúvida, entre em contato! ",
+    "text": "Parcele em até 12 x (3x sem juros) ",
     "title": ""
   },
   "promo": {
     "show": true,
-    "text": "5% de desconto no PIX",
+    "text": "Qualquer dúvida, entre em contato! ",
     "title": ""
   }
 }
